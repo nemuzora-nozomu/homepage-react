@@ -1,0 +1,51 @@
+.resume {
+  overflow: hidden;
+  border-radius: 40px;
+  background-color: var(--resume-background-color);
+  margin: 50px auto;
+  border: 1px solid #f5f5f5;
+  box-shadow: 1px 1px 7px 7px #f5f5f5;
+  padding: 30px;
+  max-width: 900px;
+}
+
+.horizontal-line {
+  width: 100%;
+  height: 5px;
+  background-color: var(--border-color);
+  margin: 2em auto 1em;
+}
+
+.info {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.info__left {
+  flex: 1 1 60%;
+  margin-right: 50px;
+}
+
+.info__right {
+  flex: 1 1 40%;
+}
+
+.spoiler-text {
+  background-color: var(--secondary-text-color);
+  transition: all 0.3s;
+}
+
+li:hover .spoiler-text {
+  background-color: transparent;
+}
+
+p:hover .spoiler-text {
+  background-color: transparent;
+}
+
+@media screen and (max-width: 576px) {
+  .info {
+    flex-direction: column;
+  }
+}

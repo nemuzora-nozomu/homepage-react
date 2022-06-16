@@ -1,0 +1,11 @@
+.skills__header {
+  color: var(--secondary-text-color);
+  text-align: center;
+  font-size: 1.5rem;
+  margin-bottom: 15px;
+}
+
+.skills__text {
+  color: var(--secondary-text-color);
+  text-align: justify;
+}

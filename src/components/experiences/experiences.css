@@ -1,0 +1,68 @@
+.experiences__header {
+  color: var(--secondary-text-color);
+  text-align: left;
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+}
+
+.experiences__company-header-durability {
+  color: var(--durability-text-color);
+  text-align: left;
+  margin-bottom: 10px;
+  font-size: 15px;
+}
+
+.experiences__company-header-name {
+  color: var(--primary-text-color);
+  text-decoration-color: var(--text-decoration-color);
+  text-decoration-line: underline;
+  text-align: left;
+
+}
+
+.experiences__company-header-description {
+  color: var(--secondary-text-color);
+  padding-left: 0.5em;
+  margin-bottom: 20px;
+}
+
+.experiences__company-project {
+  margin-left: 15px;
+  margin-bottom: 25px;
+}
+
+.experiences__company-project-role {
+  color: var(--durability-text-color);
+  text-align: left;
+  margin-bottom: 10px;
+  font-size: 15px;
+}
+
+.experiences__company-project-name {
+  color: var(--primary-text-color);
+  text-align: left;
+
+}
+
+.experiences__company-project-description {
+  color: var(--secondary-text-color);
+  font-size: 0.9rem;
+  padding-left: 0.5em;
+  margin-bottom: 10px;
+}
+
+.experiences__company-project-responsibilities {
+  color: var(--secondary-text-color);
+  padding-left: 20px;
+}
+
+.experiences__company-project-responsibilities li {
+  list-style-type: none;
+}
+
+.experiences__company-project-responsibilities li:before {
+  content: "> ";
+  font-size: 0.75rem;
+  font-weight: 600;
+  vertical-align: text-bottom;
+}
